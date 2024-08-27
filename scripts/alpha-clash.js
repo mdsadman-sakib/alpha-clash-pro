@@ -10,7 +10,15 @@
 //     // console.log(playGroundSection.classList);
 // }
 
+function continueGame(){
+    // step :1-  generate a random alphabet
+    const alphabet = getaRandomAlphabet();
+    console.log('your random word', alphabet);
+}
+
+
 function play(){
     hideElementById('home-screen');
     showElementById('play-ground');
+    continueGame();
 }
