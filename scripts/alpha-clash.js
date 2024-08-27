@@ -14,6 +14,10 @@ function continueGame(){
     // step :1-  generate a random alphabet
     const alphabet = getaRandomAlphabet();
     console.log('your random word', alphabet);
+
+    // set randomly generate alphabet to the screen (show it)
+    const currentElementAlphabet = document.getElementById('current-alphabet');
+    currentElementAlphabet.innerText = alphabet;
 }
 
 
